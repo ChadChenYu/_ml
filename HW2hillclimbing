@@ -39,3 +39,5 @@ cities = [(random.randint(0, 100), random.randint(0, 100)) for _ in range(10)]
 best_route, best_distance = hill_climbing(cities)
 print("Best Route:", best_route)
 print("Best Distance:", best_distance)
+採用GPT生成
+https://chatgpt.com/canvas/shared/67cf010e67dc8191964e7202e204bbdf
