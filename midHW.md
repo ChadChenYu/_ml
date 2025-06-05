@@ -8,4 +8,4 @@
 常見數值: loss_total:模型整體學習誤差的加總, loss_fm:音頻特徵之間的匹配誤差, loss_mel:預測的 Mel 頻譜與真實語音 Mel 頻譜之間的差距, loss_dur:音素時長預測的誤差（若使用 VITS 結合時長模型）, 
 loss_kl: Variational Autoencoder（VAE）中衡量潛在變數分布與真實分布差距的誤差, loss_d:判別器（Discriminator）在判斷真假音頻的損失, loss_g:生成器（Generator）在欺騙判別器時的損失  
 
-成果:上傳至YT後，兩天內獲得了三則留言十個讚，117、171、215次觀看。結果是曝光不足，我自己認為蠻可惜的，從做影片受眾來看，之前有傳過使用RVC分離人聲的[卡芙卡PV影片](https://youtu.be/Bvq3QC7V8Go)獲得了近12000次觀看，一百多讚，從這點可以確認繁體中文受眾的族群是足夠的，成功的話甚至能有幾十幾百萬觀看，比如[老高](https://www.youtube.com/@laogao)，比如[小Lin說](https://www.youtube.com/@xiao_lin_shuo)等等
+成果:上傳至YT後，兩天內獲得了三則留言十個讚，117、171、215次觀看。結果是曝光不足，我自己認為蠻可惜的，從做影片受眾來看，之前有傳過使用RVC分離人聲的[卡芙卡PV影片](https://youtu.be/Bvq3QC7V8Go)獲得了近12,000次觀看，一百多讚，從這點可以確認繁體中文受眾的族群是足夠的，成功的話甚至能有幾十幾百萬觀看，比如[老高](https://www.youtube.com/@laogao)，比如[小Lin說](https://www.youtube.com/@xiao_lin_shuo)等等
