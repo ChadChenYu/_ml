@@ -3,8 +3,10 @@
 過程中卻發現loss_kl無限接近於0，我一查才知道是素材太少(十分鐘語音)輪數太多導致過擬和，於是我增加了訓練資料數量，減少訓練輪次至200輪，最後成功把模型處理好。  
 得到模型後，我下載了一首歌曲(轉身即心痛)[https://www.youtube.com/watch?v=8lXzbURdez0]
 ，用RVC進行人聲分離，再把vocal進行模，把背景音跟推理結果放進去Audacity對齊音軌，最後用Adobe Photoshop把角色圖片上封面圖、說明等等的操作，部分使用Adobe Premiere PRO剪輯、Acytime上字幕軟體。我嘗試讓AI翻唱六首歌曲，
-最後完成了三首歌(因為人聲分離乾淨程度、男女對唱較難實現翻唱等等原因)  
+最後完成了三首歌(因為人聲分離乾淨程度、男女對唱較難實現翻唱等等原因)[轉身即心痛](https://youtu.be/m-rEMpnIkXg), [星間旅行](https://youtube.com/shorts/I-YZPzYV7qU?feature=share), [アイドル](https://youtu.be/m-rEMpnIkXg)  
 
 常見數值: loss_total:模型整體學習誤差的加總, loss_fm:音頻特徵之間的匹配誤差, loss_mel:預測的 Mel 頻譜與真實語音 Mel 頻譜之間的差距, loss_dur:音素時長預測的誤差（若使用 VITS 結合時長模型）, 
 loss_kl: Variational Autoencoder（VAE）中衡量潛在變數分布與真實分布差距的誤差, loss_d:判別器（Discriminator）在判斷真假音頻的損失, loss_g:生成器（Generator）在欺騙判別器時的損失  
+
+成果:上傳至YT後，兩天獲得了117、171、215次觀看。三則留言十個讚，結果是曝光不足，這個快速轉移人們注意力的時代中選擇做短影片比較容易受到關注，不論是單純分享技術或是成果都是如此
 
